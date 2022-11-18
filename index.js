@@ -39,14 +39,14 @@ const libros = [
 
 ]
 
-const randomGuy = new Usuario("Juan", "Perez", libros ,["Perro", "Gato"])
+const randomGuy = new Usuario("Pedro", "Saez", libros ,["Perro", "Gato"])
 
-console.log(randomGuy.getFullName()); // Juan Perez
+console.log(randomGuy.getFullName()); 
 
-console.log(randomGuy.getBookNames()); // 'Rebelión en la granja', 'Sin blanca en Paris y Londres'
+console.log(randomGuy.getBookNames()); 
 randomGuy.addBook("Arte abstracto y arte figurativo", "SALVAT")
-console.log(randomGuy.getBookNames()); // 'Rebelión en la granja', 'Sin blanca en Paris y Londres', 'Arte abstracto y arte figurativo'
+console.log(randomGuy.getBookNames()); 
 
-console.log(randomGuy.countMascotas()); // 2
+console.log(randomGuy.countMascotas());
 randomGuy.addMascota('Canario');
-console.log(randomGuy.countMascotas()); // 3
+console.log(randomGuy.countMascotas()); 
